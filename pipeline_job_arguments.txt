@@ -1,0 +1,4 @@
+python stream_pipeline.py --project project-name \
+ --region region --temp_location gs://bucket_name/tmp \
+ --runner DataflowRunner --input_subscription subscription \
+ --table_name streaming_dataset.stock_stream_data
