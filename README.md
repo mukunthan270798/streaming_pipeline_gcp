@@ -3,8 +3,11 @@ We will build a streaming data processing pipeline using dataflow which reads th
 
 ## Simulating real time streaming:
   Reading data from csv file
+  
   Append the timestamp that will serve as the event time for windowing
+  
   Publish the event to pubsub topic
+  
   Stream rate is hardcoded to 1 message per second
   
 ## The Apache beam pipeline has the following Ptransforms
